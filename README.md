@@ -16,3 +16,9 @@ go build downloader.go
 sudo cp -r downloader /usr/local/bin/
 sudo chmod a+rx /usr/local/bin/downloader
 ```
+or
+```
+go build downloader.go
+mv downloader /usr/bin/
+chmod a+rx /usr/bin/downloader
+```
